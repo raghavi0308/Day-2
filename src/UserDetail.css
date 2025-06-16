@@ -1,0 +1,95 @@
+/* Centering the content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+/* Container with increased width */
+.container {
+    width: 100%;  /* Adjust width to make it more rectangular */
+    max-width: 1100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Row with equal spacing */
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Make the columns shorter in height */
+.column {
+    flex: 1;
+    background: #060606;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    min-width: 48%;
+    height: auto; /* Adjusts height dynamically */
+}
+
+/* Adjust heading and spacing */
+h2 {
+    color: #d8cccc;
+    text-align: center;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+/* Labels and inputs styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 8px;
+}
+
+input[type="text"],
+select {
+    width: 70%;
+    padding: 6px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Adjust checkboxes and radio buttons */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-left: 8px;
+}
+
+/* Align radio buttons and labels in a row */
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between radio buttons and labels */
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between button and text */
+    cursor: pointer;
+}
+
+input[type="number"]
+{
+
+    width: 70%;
+    padding: 6px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
